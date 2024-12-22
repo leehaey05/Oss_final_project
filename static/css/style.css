@@ -1,0 +1,161 @@
+/* 기본 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#app {
+    width: 95%;
+    max-width: 1200px;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* 제목 스타일 */
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #555;
+}
+
+/* 버튼 스타일 */
+#category-buttons, .subcategory-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.category-button, .subcategory-button {
+    background: white; 
+    border: 2px solid #ffffff; 
+    cursor: pointer;
+    text-align: center;
+    width: 150px;
+    transition: transform 0.3s ease, box-shadow 0.3s;
+    padding: 10px;
+}
+
+.category-button img, .subcategory-button img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.category-button img:hover, .subcategory-button img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.category-button span, .subcategory-button span {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    display: block;
+    transition: color 0.3s;
+}
+
+.category-button span:hover, .subcategory-button span:hover {
+    color: #ffffff;
+}
+
+/* 예산 입력 및 버튼 */
+#subcategory input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 300px;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+}
+
+#recommendButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+#recommendButton:hover {
+    background-color: #ffffff; 
+}
+
+/* 추천 제품 스타일 */
+#result .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+}
+
+#result .product img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#result .product p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+#result .product a {
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+#result .product a:hover {
+    background-color: #1e7e34;
+}
+
+/* 초기화 버튼 스타일 */
+#resetButton {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#resetButton:hover {
+    background-color: #e63946;
+}
