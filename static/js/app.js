@@ -9,14 +9,14 @@ function selectCategory(category) {
             { name: "TV", img: "tv.png" },
             { name: "세탁기", img: "washer.png" },
             { name: "건조기", img: "dryer.png" },
-            { name: "청소기", img: "vacuumcleaner.png" }, // 수정된 파일명
+            { name: "청소기", img: "vacuumcleaner.png" }, 
             { name: "에어컨", img: "airconditioner.png" },
             { name: "공기청정기", img: "airpurifier.png" }
         ]
         : [
-            { name: "휴대폰", img: "smartphone.png" }, // 수정된 파일명
+            { name: "휴대폰", img: "smartphone.png" }, 
             { name: "패드", img: "tablet.png" },
-            { name: "무선이어폰", img: "wirelessearbuds.png" }, // 수정된 파일명
+            { name: "무선이어폰", img: "wirelessearbuds.png" }, 
             { name: "스마트워치", img: "smartwatch.png" },
             { name: "노트북", img: "laptop.png" }
         ];
